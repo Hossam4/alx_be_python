@@ -1,13 +1,13 @@
 guess = input("What's the weather like today? (sunny/rainy/cold): ")
-match guess:
-    case "sunny":
+
+if guess == "sunny":
         print("Wear a t-shirt and sunglasses.")
 
-    case "rainy":
+elif guess == "sunny":
         print("Don't forget your umbrella and a raincoat.")    
 
-    case "cold":
+elif guess == "cold":
         print("Make sure to wear a warm coat and a scarf.")
         
-    case _:
+else:
         print("Sorry, I don't have recommendations for this weather.")
